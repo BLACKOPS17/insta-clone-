@@ -1,0 +1,36 @@
+.brand-name{
+    width: 150px;
+}
+.bi{
+    margin-right: 10px;
+}
+
+.story{
+    
+    height: 100px;
+}
+
+.dp{
+    height: 30px;
+    width: 30px;
+    margin: 5px 5px 5px 0px;
+}
+.post_img{
+    height: 300px;
+    width: 300px;
+}
+/* Story */
+
+.gradient-border{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff00ff,#ff6600,#ffcc00);
+}
+.story-dp{
+    width: 40px;
+    
+}

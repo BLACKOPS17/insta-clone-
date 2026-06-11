@@ -1,0 +1,132 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/p-1.avif"
+      },
+      "image": "src/assets/s-1.avif",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸🔥"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_lee",
+        "profile_pic": "src/assets/p-2.avif"
+      },
+      "image": "src/assets/s-2.avif",
+      "caption": "Coffee first ☕ #MondayMotivation",
+      "likes": 230,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "I need this coffee right now! 😍"
+        },
+        {
+          "user": "alice_wonder",
+          "comment": "Same mood ☕🔥"
+        }
+      ],
+      "timestamp": "2025-02-12T09:40:00Z"
+    },
+
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "src/assets/p-3.avif"
+      },
+      "image": "src/assets/s-3.avif",
+      "caption": "Nature is the best teacher 🍃✨",
+      "likes": 95,
+      "comments": [
+        {
+          "user": "sarah_lee",
+          "comment": "So peaceful 🕊️"
+        }
+      ],
+      "timestamp": "2025-02-13T12:15:00Z"
+    }
+  ],
+  "profile":{
+        "id": 101,
+        "username": "its_me_blackops",
+        "profile_pic": "src/assets/profile_pic.ico"},
+  "suggestions":[
+        {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/p-1.avif"
+      },
+     {
+        "id": 102,
+        "username": "sarah_lee",
+        "profile_pic": "src/assets/p-2.avif"
+      },
+       {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "src/assets/p-3.avif"
+      },
+       {
+        "id": 104,
+        "username": "kio_92",
+        "profile_pic": "src/assets/p-3.avif"
+      },
+       {
+        "id": 103,
+        "username": "leo",
+        "profile_pic": "src/assets/p-3.avif"
+      }
+
+  ],
+  "story": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/p-1.avif"
+      },
+      "image": "src/assets/s-1.jpg"
+      
+    },
+
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sarah_lee",
+        "profile_pic": "src/assets/p-2.avif"
+      },
+      "image": "src/assets/s-2.jpg"
+    },
+
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "src/assets/p-3.avif"
+      },
+      "image": "src/assets/s-3.jpg"
+    }
+  ]
+}
